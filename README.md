@@ -1,1 +1,1 @@
-# Live: [Blog](https://blog.abhishek-sharma.com.np/)
+# Live: https://blog.abhishek-sharma.com.np/
