@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const difference = launchDate - currentDate;
         
         // Calculate time units
-        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24 * 1.5));
         const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Animate progress bar on load
     const progressBar = document.getElementById('progress-bar');
     const progressPercentage = document.getElementById('progress-percentage');
-    const targetProgress = 5; // Current progress percentage
+    const targetProgress = 20; // Current progress percentage
     
     let currentProgress = 0;
     const progressInterval = setInterval(() => {
